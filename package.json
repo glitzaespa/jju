@@ -3,6 +3,8 @@
     "node": "^16.6.1"
   },
   "dependencies": {
-    "aoi.js": "^5.0.7"
+    "aoi.js": "^5.1.2",
+    "aoi.mongo": "^0.2.0",
+    "mongodb": "^4.4.1"
   }
 }
