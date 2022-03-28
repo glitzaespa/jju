@@ -8,6 +8,7 @@ database: {
      db: aoimongo,
      type: "aoi.mongo",
      path: "mongodb+srv://glitzybitch:IRPgTnbQsrdvImJ0@jujju.vkyte.mongodb.net/?w=majority&retryWrites=true"
+   }
 })
 
 bot.variables({
