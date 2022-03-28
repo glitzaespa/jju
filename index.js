@@ -3,7 +3,11 @@ const aoijs = require("aoi.js")
 const bot = new aoijs.Bot({
 token: process.env.TOKEN, //Discord Bot Token
 prefix: "$getServerVar[PREFIX]", //Discord Bot Prefix
-intents: "all" //Discord Intents
+intents: "all", //Discord Intents
+database: {
+     db: aoimongo,
+     type: "aoi.mongo",
+     path: "mongodb+srv://glitzybitch:IRPgTnbQsrdvImJ0@jujju.vkyte.mongodb.net/?w=majority&retryWrites=true"
 })
 
 bot.variables({
