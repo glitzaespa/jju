@@ -37,7 +37,7 @@ Sunday_IMAGE: "https://cdn.discordapp.com/attachments/949848002628038727/9563058
 //BANNER
 BANNER: "\`☆☆☆\` **JJU Bot** Default",
 BANNER_IMAGE: "https://cdn.discordapp.com/attachments/953060221205479434/953060425430364250/JJDF_BN.png",
-JJDF_BN: "\`☆☆☆\` **JJU Bot** Default",
+JJDF_BN: "\`☆☆☆☆\` **JJU Bot** Default",
 JJDF_BN_IMAGE: "https://cdn.discordapp.com/attachments/953060221205479434/953060425430364250/JJDF_BN.png",
 JJDF_BN_STATUS: "Purchased.",
 //PROFILE
