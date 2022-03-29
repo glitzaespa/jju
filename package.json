@@ -5,6 +5,7 @@
   "dependencies": {
     "aoi.js": "^5.1.2",
     "aoi.mongo": "^0.2.0",
-    "mongodb": "^4.4.1"
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.9"
   }
 }
