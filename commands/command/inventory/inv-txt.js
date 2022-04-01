@@ -13,6 +13,22 @@ $if[$getGlobalUserVar[TXYJ_2_CY]>=1]
 $addField[1;<:JJU_txt:959555876937695233> $getGlobalUserVar[TXYJ_2_CY_IDOL];Copies: \`$getGlobalUserVar[TXYJ_2_CY]\`
 Code: \`TXYJ_2_CY\`;yes]
 $endif
+$if[$getGlobalUserVar[TXSB_2_CY]>=1]
+$addField[1;<:JJU_txt:959555876937695233> $getGlobalUserVar[TXSB_2_CY_IDOL];Copies: \`$getGlobalUserVar[TXSB_2_CY]\`
+Code: \`TXSB_2_CY\`;yes]
+$endif
+$if[$getGlobalUserVar[TXBG_2_CY]>=1]
+$addField[1;<:JJU_txt:959555876937695233> $getGlobalUserVar[TXBG_2_CY_IDOL];Copies: \`$getGlobalUserVar[TXBG_2_CY]\`
+Code: \`TXBG_2_CY\`;yes]
+$endif
+$if[$getGlobalUserVar[TXTH_2_CY]>=1]
+$addField[1;<:JJU_txt:959555876937695233> $getGlobalUserVar[TXTH_2_CY_IDOL];Copies: \`$getGlobalUserVar[TXTH_2_CY]\`
+Code: \`TXTH_2_CY\`;yes]
+$endif
+$if[$getGlobalUserVar[TXHK_2_CY]>=1]
+$addField[1;<:JJU_txt:959555876937695233> $getGlobalUserVar[TXHK_2_CY_IDOL];Copies: \`$getGlobalUserVar[TXHK_2_CY]\`
+Code: \`TXHK_2_CY\`;yes]
+$endif
 
 $color[1;3af4cb]
 $thumbnail[1;$userAvatar[$mentioned[1]]]
