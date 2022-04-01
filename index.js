@@ -63,7 +63,7 @@ lightblue_CODE: "1ac2e8",
 blue_CODE: "1a27e8",
 purple_CODE: "8f1ae8",
 pink_CODE: "e81aa7",
-white_CODE: "f5f5f5",
+white_CODE: "ffffff",
 //ENHYPEN
 ENHS_2_DA: "0",
 ENHS_2_DA_COLOR: "lightblue",
