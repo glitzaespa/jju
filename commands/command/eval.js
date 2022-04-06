@@ -1,5 +1,6 @@
 module.exports = {
   name: "eval",
   $if: "v4",
-  code:`$argsCheck[1;{field:List of available groups:\`\`\`default;nmixx;enhypen\`\`\`}]`
+  code:`$eval[$message]
+  $onlyforids[$botownerid;You're not allowed to use this command!]`
 }
