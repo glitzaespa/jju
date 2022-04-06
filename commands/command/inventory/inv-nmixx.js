@@ -14,27 +14,27 @@ $addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMLL_3_TA_IDOL];Co
 Code: \`NMLL_3_TA\`;yes]
 $endif
 $if[$getGlobalUserVar[NMBA_3_TA]>=1]
-$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMBA_3_TA];Copies: \`$getGlobalUserVar[NMBA_3_TA]\`
+$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMBA_3_TA_IDOL];Copies: \`$getGlobalUserVar[NMBA_3_TA]\`
 Code: \`NMBA_3_TA\`;yes]
 $endif
 $if[$getGlobalUserVar[NMHW_3_TA]>=1]
-$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMHW_3_TA];Copies: \`$getGlobalUserVar[NMHW_3_TA]\`
+$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMHW_3_TA_IDOL];Copies: \`$getGlobalUserVar[NMHW_3_TA]\`
 Code: \`NMHW_3_TA\`;yes]
 $endif
 $if[$getGlobalUserVar[NMJN_3_TA]>=1]
-$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMJN_3_TA];Copies: \`$getGlobalUserVar[NMJN_3_TA]\`
+$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMJN_3_TA_IDOL];Copies: \`$getGlobalUserVar[NMJN_3_TA]\`
 Code: \`NMJN_3_TA\`;yes]
 $endif
 $if[$getGlobalUserVar[NMJW_3_TA]>=1]
-$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMJW_3_TA];Copies: \`$getGlobalUserVar[NMJW_3_TA]\`
+$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMJW_3_TA_IDOL];Copies: \`$getGlobalUserVar[NMJW_3_TA]\`
 Code: \`NMJW_3_TA\`;yes]
 $endif
 $if[$getGlobalUserVar[NMKJ_3_TA]>=1]
-$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMKJ_3_TA];Copies: \`$getGlobalUserVar[NMKJ_3_TA]\`
+$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMKJ_3_TA_IDOL];Copies: \`$getGlobalUserVar[NMKJ_3_TA]\`
 Code: \`NMKJ_3_TA\`;yes]
 $endif
 $if[$getGlobalUserVar[NMSY_3_TA]>=1]
-$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMSY_3_TA];Copies: \`$getGlobalUserVar[NMSY_3_TA]\`
+$addField[1;<:JJU_nmixx:957370681560018994> $getGlobalUserVar[NMSY_3_TA_IDOL];Copies: \`$getGlobalUserVar[NMSY_3_TA]\`
 Code: \`NMSY_3_TA\`;yes]
 $endif
 
