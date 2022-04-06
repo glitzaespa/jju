@@ -15,6 +15,10 @@ $addField[1;Hack ; $if[$get[hack]>0;<:JJU_close:957039430978392135> $parseDate[$
 
 $let[hack;$getCooldownTime[5m;globalUser;hack;$authorID;yes]]
 
+$addField[1;Force Drop ; $if[$get[forcedrop]>0;<:JJU_close:957039430978392135> $parseDate[$get[forcedrop];time];<:JJU_tick:957039430705741845> Cooldown done!];yes]
+
+$let[forcedrop;$getCooldownTime[1m;globalUser;forcedrop;$authorID;yes]]
+
 $color[1;3af4cb]
 $thumbnail[1;$authorAvatar]
 $footer[1;$userTag;https://cdn.discordapp.com/attachments/953097417295790121/957032974073860096/JJU_clock.png]
