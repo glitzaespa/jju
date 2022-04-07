@@ -14,7 +14,7 @@ database: {
 
 bot.variables({
 //PROFILE
-FAV_GROUP: "No group set.",
+FAV_GROUP: "default",
 //GROUP NAME
 default: "<:JJU_unknown:957370681400651837> Default",
 nmixx: "<:JJU_nmixx:957370681560018994> NMIXX",
