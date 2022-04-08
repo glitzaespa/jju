@@ -15,6 +15,7 @@ database: {
 bot.variables({
 //DROP
 FORCEDROP: "No drop",
+DROP: "Drop",
 //PROFILE
 FAV_GROUP: "No group set.",
 //GROUP NAME
