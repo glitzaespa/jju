@@ -2,7 +2,7 @@ module.exports ={
   name: "forcedrop",
   aliases:["fd","fdrop","fdr"],
   code:`
-$author[1;Force Drop;$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_COLOR]]
+$author[1;Force Drop;$getGlobalUserVar[$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_COLOR]]]
 $addField[1;Balance Change;\`🌰\` \`➖\` x1,500]
 $addField[1;Code;\`\`\`$getGlobalUserVar[FORCEDROP]\`\`\`;yes]
 $addField[1;Global Copies;\`\`\`$getVar[$getGlobalUserVar[FORCEDROP]]_OWNER]\`\`\`;yes]
