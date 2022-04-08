@@ -5,7 +5,7 @@ module.exports ={
 $author[1;Force Drop;$getGlobalUserVar[$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_COLOR]]]
 $addField[1;Balance Change;\`🌰\` \`➖\` x1,500]
 $addField[1;Code;\`\`\`$getGlobalUserVar[FORCEDROP]\`\`\`;yes]
-$addField[1;Global Copies;\`\`\`$getVar[$getGlobalUserVar[FORCEDROP]]_OWNER]\`\`\`;yes]
+$addField[1;Global Copies;\`\`\`$getVar[$getGlobalUserVar[FORCEDROP]_OWNER]\`\`\`;yes]
 $addField[1;Rarity;\`\`\`$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_RARITY]\`\`\`;yes]
 $addField[1;Theme;\`\`\`$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_THEME]\`\`\`;yes]
 $addField[1;Idol;\`\`\`$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_IDOL]\`\`\`;yes]
