@@ -1,8 +1,8 @@
 module.exports ={
   name: "balance",
   aliases:["b","bal","money"],
-  code:`$addField[1;\`🌰\` Chestnuts;\`\`\`$getGlobalUserVar[CHESTNUT;$mentioned[1]]\`\`\`]
-$addField[1;\`💎\` Gems;\`\`\`$getGlobalUserVar[GEMS;$mentioned[1]]\`\`\`]
+  code:`$addField[1;<:JJU_chestnut:962386674174803968> Chestnuts;\`\`\`$getGlobalUserVar[CHESTNUT;$mentioned[1]]\`\`\`]
+$addField[1;<:JJU_diamond:962386919969390684> Gems;\`\`\`$getGlobalUserVar[GEMS;$mentioned[1]]\`\`\`]
 $wait[1s]
 $title[1;$username[$mentioned[1]]'s balance]
 
