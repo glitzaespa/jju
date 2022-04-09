@@ -7,7 +7,7 @@ module.exports = [({
   $addField[1;New;\`nw\` Brand new items in the shop!;yes]  
   $addField[1;Packs;\`pc\` Buy cards in bulk for a special price!;yes]  
 
-    $addField[1;Example;\`\`\`!shop bg\`\`\`]
+    $addField[1;Example;\`\`\`!shop [code]\`\`\`]
     $footer[1;$userTag;https://cdn.discordapp.com/attachments/946791137165836361/962362551797162084/JJU_clock.png]
 
   $addTimestamp[1]
