@@ -14,8 +14,9 @@ database: {
 
 bot.variables({
 //DROP
-FORCEDROP: "No drop",
-DROP: "Drop",
+FORCEDROP: "No drop.",
+DROP: "No drop.",
+sscp: "No drop.",
 //PROFILE
 FAV_GROUP: "No group set.",
 //GROUP NAME
@@ -29,7 +30,7 @@ ateez: "<:JJU_ateez:961745655548743690> ATEEZ",
 redvelvet: "<:JJU_redvelvet:957400721597272115> Red Velvet",
 //CURRENCY
 CHESTNUT: "0",
-GEMS: "0",
+DIAMOND: "0",
 //PREFIX
 PREFIX: "!",
 //HACK
