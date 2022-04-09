@@ -4,12 +4,14 @@ module.exports = {
 
     $footer[1;$userTag;https://cdn.discordapp.com/attachments/946791137165836361/962390336460701726/JJU_clock.png]
 
-$setGlobalUserVar[$randomText[SOBE_LC;SOBE_DS]_$randomText[C;C;C;B;C;B;B;R;R;E];$sum[$getGlobalUserVar[$randomText[SOBE_LC;SOBE_DS]_$randomText[C;C;C;B;C;B;B;R;R;E]];1]]
+$setGlobalUserVar[$getGlobalUserVar[sscp];$sum[$getGlobalUserVar[$getGlobalUserVar[sscp]];1]]
 
-$setVar[$randomText[SOBE_LC;SOBE_DS]_$randomText[C;C;C;B;C;B;B;R;R;E]_OWNER;$sum[$getVar[$randomText[SOBE_LC;SOBE_DS]_$randomText[C;C;C;B;C;B;B;R;R;E]_OWNER];1]]
+$setVar[$getGlobalUserVar[sscp]_OWNER;$sum[$getVar[$getGlobalUserVar[sscp]_OWNER];1]]
 
-$addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$randomText[SOBE_LC;SOBE_DS]_$randomText[C;C;C;B;C;B;B;R;R;E]_NAME] has been added to your inventory.]
+$addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[sscp]_NAME] has been added to your inventory.]
     $addField[1;Balance Change;<:JJU_diamond:962386919969390684> \`x5,000\` have been removed from your balance.]
+    
+    $setGlobalUserVar[sscp;$randomText[TWNY_3_SC;TWJY_3_SC;TWMM_3_SC;TWSN_3_SC;TWJH_3_SC;TWMN_3_SC;TWDH_3_SC;TWCY_3_SC;TWTY_3_SC]]
     
   $addTimestamp[1]
   
