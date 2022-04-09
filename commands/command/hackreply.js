@@ -6,7 +6,9 @@ module.exports ={
 
 $if[$message==$getGlobalUserVar[HACK_CODE]]
 $setGlobalUserVar[CHESTNUT;$sum[$getGlobalUserVar[CHESTNUT];500]]
-$addField[1;Rewards;\`🌰\` x500]
+$setGlobalUserVar[DIAMOND;$sum[$getGlobalUserVar[DIAMOND];10]]
+$addField[1;Rewards;<:JJU_chestnut:962386674174803968> x500
+<:JJU_diamond:962386919969390684> x10]
 $author[1;Hack Mission — Result;https://cdn.discordapp.com/attachments/949848002628038727/956639744912130138/JUYEON_SHADOW.png]
 $description[1;Hack has been successful!]
 $title[1;Thanks for your help!]
