@@ -9,7 +9,7 @@ $addField[1;Global Copies;\`\`\`$getVar[$getGlobalUserVar[DROPBOOST]_OWNER]\`\`\
 $addField[1;Rarity;\`\`\`$getGlobalUserVar[$getGlobalUserVar[DROPBOOST]_RARITY]\`\`\`;yes]
 $addField[1;Theme;\`\`\`$getGlobalUserVar[$getGlobalUserVar[DROPBOOST]_THEME]\`\`\`;yes]
 $addField[1;Idol;\`\`\`$getGlobalUserVar[$getGlobalUserVar[DROPBOOST]_IDOL]\`\`\`;yes]
-$image[1;attachment://dropboost.png]
+$image[1;attachment://drop.png]
 $attachment[$getGlobalUserVar[$getGlobalUserVar[DROPBOOST]_IMAGE];drop.png]
 $footer[1;Try again in 10 minutes!]
 $thumbnail[1;$authorAvatar]
