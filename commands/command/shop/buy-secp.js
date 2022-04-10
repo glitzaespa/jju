@@ -6,7 +6,7 @@ $setGlobalUserVar[$getGlobalUserVar[secp];$sum[$getGlobalUserVar[$getGlobalUserV
 $setGlobalUserVar[DIAMOND;$sub[$getGlobalUserVar[DIAMOND];5000]]
 $setVar[$getGlobalUserVar[secp]_OWNER;$sum[$getVar[$getGlobalUserVar[secp]_OWNER];1]]
 $addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[secp]_NAME] has been added to your inventory.]
-    $addField[1;Balance Change;<:JJU_diamond:962386919969390684> \`x5,000\` have been removed from your balance.]
+    $addField[1;Balance Change;<:JJU_diamond:962386919969390684> \`x100\` have been removed from your balance.]
     
     $setGlobalUserVar[secp;$randomText[NMLL_3_TA;NMBA_3_TA;NMHW_3_TA;NMJN_3_TA;NMJW_3_TA;NMKJ_3_TA;NMSY_3_TA;SOCY_2_SM2;SOCY_2_SM3]]
     
