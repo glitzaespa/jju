@@ -17,6 +17,7 @@ bot.variables({
 FORCEDROP: "No drop.",
 DROP: "No drop.",
 sscp: "No drop.",
+secp: "No drop.",
 //PROFILE
 FAV_GROUP: "No group set.",
 //GROUP NAME
