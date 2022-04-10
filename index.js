@@ -596,5 +596,9 @@ bot.readyCommand({
     code: `$log[Ready on $userTag[$clientID]]`
 })
 
+bot.status({
+  text: "in $serverCount servers!",
+  type: "PLAYING"})
+
 const loader = new aoijs.LoadCommands(bot);
 loader.load(bot.cmd,'./commands/') 
