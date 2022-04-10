@@ -2,8 +2,8 @@ module.exports ={
   name: "help",
   code:` $author[1;Help;https://cdn.discordapp.com/attachments/953097417295790121/957042575850745916/JJU_help.png]
 
-$addField[1;\`❓\` Others;\`\`\`cooldown, forcedrop\`\`\`]
-$addField[1;\`🎴\` Cards;\`\`\`drop, summon, forcedrop, gift, inventory\`\`\`]
+$addField[1;\`❓\` Others;\`\`\`cooldown, cooldown booster, prefix\`\`\`]
+$addField[1;\`🎴\` Cards;\`\`\`drop, drop booster, summon, forcedrop, gift, inventory\`\`\`]
 $addField[1;\`💰\` Currency;\`\`\`hack, summon, balance, quest, tip, sell diamond, sell chestnut\`\`\`]
 $addField[1;\`🖥️\` Server Info;Name: \`$guild[$guildID;name]\`
 Prefix: \`$getServerVar[PREFIX]\`]
