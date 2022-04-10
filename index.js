@@ -13,6 +13,30 @@ database: {
 })
 
 bot.variables({
+//MINIGAME
+SOCYSM1_IMAGE: `https://cdn.discordapp.com/attachments/961259504006221834/961259660898345030/Untitled112_20220406064143.png`,
+SOCYSM1_ANSWER: `smileyv1`,
+SOCYSM1_HINT: `2 star card, soloist card.`,
+SOCYSM2_IMAGE: `https://cdn.discordapp.com/attachments/961259504006221834/961259627624943696/Untitled112_20220406064120.png`,
+SOCYSM2_ANSWER: `smileyv2`,
+SOCYSM2_HINT: `2 star card, special and soloist card.`,
+SOCYSM3_IMAGE: `https://cdn.discordapp.com/attachments/961259504006221834/961259673296699392/Untitled112_20220406064102.png`,
+SOCYSM3_ANSWER: `smileyv3`,
+SOCYSM3_HINT: `2 star card, special and soloist card.`,
+RVR2_IMAGE: `https://cdn.discordapp.com/attachments/957342560932724836/957342762167042048/DAY2_BORDER.png`,
+RVR2_ANSWER: `revefestivalday2`,
+RVR2_HINT: `2 star card, girl group theme.`,
+BPHY_IMAGE: `https://cdn.discordapp.com/attachments/954680727721627658/957409816643506197/Untitled288_20220327063144.png`,
+BPHY_ANSWER: `howyoulikethat`,
+BPHY_HINT: `2 star card, girl group theme.`,
+TXCY_IMAGE: `https://cdn.discordapp.com/attachments/954674970808688650/957409772754321458/Untitled272_20220327063129.png`,
+TXCY_ANSWER: `cantyouseeme`,
+TXCY_HINT: `2 star card, boy group theme.`,
+ENDA_IMAGE: `https://cdn.discordapp.com/attachments/951117179816923227/957424863369392188/Untitled5_20220327074227.png`,
+ENDA_ANSWER: `dimensionanswer`,
+ENDA_HINT: `2 star card, boy group theme.`,
+//OPTIONS
+QUEST_CODE: `No border chosen.`,
 //DROP
 FORCEDROP: "No drop.",
 DROP: "No drop.",
