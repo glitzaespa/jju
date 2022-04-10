@@ -5,7 +5,7 @@ module.exports = {
 
 $author[1;Booster Cooldown;https://cdn.discordapp.com/attachments/953097417295790121/957041663908384798/JJU_clock2.png]
 
-$addField[1;Summon ; $if[$get[dropboost]>0;<:JJU_close:957039430978392135> $parseDate[$get[dropboost];time];<:JJU_tick:957039430705741845> Cooldown done!];yes]
+$addField[1;Booster Drop ; $if[$get[dropboost]>0;<:JJU_close:957039430978392135> $parseDate[$get[dropboost];time];<:JJU_tick:957039430705741845> Cooldown done!];yes]
 $let[dropboost;$getCooldownTime[10m;globalUser;drop booster;$authorID;yes]]
 
 $color[1;3af4cb]
