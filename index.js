@@ -40,6 +40,7 @@ QUEST_CODE: `No border chosen.`,
 //DROP
 FORCEDROP: "No drop.",
 DROP: "No drop.",
+DROPBOOST: "No drop.",
 sscp: "No drop.",
 secp: "No drop.",
 //PROFILE
