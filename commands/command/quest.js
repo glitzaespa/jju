@@ -18,5 +18,7 @@ $setGlobalUserVar[QUEST_CODE;$randomText[ENDA;TXCY;BPHY;RVR2;SOCYSM3;SOCYSM2;SOC
 $color[1;06ff00]
 
 $reply[$messageID;yes]
+
+$globalCooldown[5m;<@$authorID>, you're on cooldown! Please try again in \`%time%\`.]
 `
 }
