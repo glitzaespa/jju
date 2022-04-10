@@ -11,6 +11,7 @@ $description[1;<@$authorID> added $getGlobalUserVar[$message[2]_NAME] to <@$ment
    $thumbnail[1;$authorAvatar]
 
 $setGlobalUserVar[$noMentionMessage;$sum[$getGlobalUserVar[$noMentionMessage;$mentioned[1]];1];$mentioned[1]]
+$setVar[$noMentionMessage_OWNER;$sum[$getVar[$noMentionMessage_OWNER];1]]
 
 $suppressErrors[<@$authorID>, an error happened. Please check your command again.]
 
