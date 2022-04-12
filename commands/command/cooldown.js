@@ -1,5 +1,6 @@
 module.exports = {
   name: "cooldown",
+  aliases:["cd","cool","time"],
   code:`
 
 $author[1;Cooldown;https://cdn.discordapp.com/attachments/953097417295790121/957041663908384798/JJU_clock2.png]
