@@ -1,5 +1,5 @@
 module.exports = {
-  name: "inv txt",
+  name: "inv txt - cant you see me",
   $if: "v4",
   code:`
 
