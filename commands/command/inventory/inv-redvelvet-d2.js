@@ -1,5 +1,5 @@
 module.exports = {
-  name: "inv redvelvet",
+  name: "inv redvelvet - reve festival day 2",
   $if: "v4",
   code:`
 
