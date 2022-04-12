@@ -1,5 +1,5 @@
 module.exports = {
-  name: "inv twice",
+  name: "inv twice - stage card",
   $if: "v4",
   code:`
 
