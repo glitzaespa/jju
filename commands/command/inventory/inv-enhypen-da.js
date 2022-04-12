@@ -1,5 +1,5 @@
 module.exports = {
-  name: "inv enhypen",
+  name: "inv enhypen - dimension answer",
   $if: "v4",
   code:`
 
