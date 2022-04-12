@@ -1,5 +1,5 @@
 module.exports = {
-  name: "inv blackpink",
+  name: "inv blackpink - how you like that",
   $if: "v4",
   code:`
 
