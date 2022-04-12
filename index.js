@@ -38,6 +38,7 @@ ENDA_HINT: `2 star card, boy group theme.`,
 //OPTIONS
 QUEST_CODE: `No border chosen.`,
 //DROP
+SUMMON: "No drop.",
 FORCEDROP: "No drop.",
 DROP: "No drop.",
 DROPBOOST: "No drop.",
