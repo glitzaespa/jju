@@ -1,5 +1,6 @@
 module.exports = {
   name: "inv enhypen - dimension answer",
+  aliases:["inv en - da","en - dimension","enhypen - da"],
   $if: "v4",
   code:`
 
