@@ -1,5 +1,5 @@
 module.exports = {
-  name: "inv choiyena",
+  name: "inv choiyena - smiley",
   $if: "v4",
   code:`
 $author[1;Inventory — Choi Yena;https://cdn.discordapp.com/attachments/953097417295790121/957395333686624286/JJU_inventory.png]
