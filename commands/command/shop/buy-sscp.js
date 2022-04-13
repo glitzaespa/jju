@@ -12,7 +12,7 @@ $setVar[$getGlobalUserVar[sscp]_OWNER;$sum[$getVar[$getGlobalUserVar[sscp]_OWNER
 $addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[sscp]_NAME] has been added to your inventory.]
     $addField[1;Balance Change;<:JJU_diamond:962386919969390684> \`x5,000\` have been removed from your balance.]
     
-    $setGlobalUserVar[sscp;$randomText[TWNY_3_SC;TWJY_3_SC;TWMM_3_SC;TWSN_3_SC;TWJH_3_SC;TWMN_3_SC;TWDH_3_SC;TWCY_3_SC;TWTY_3_SC;SOTY_3_SC;TBER_3_SC;TBJC_3_SC;TBSY_3_SC;TBHJ_3_SC;TBYH_3_SC;TBKV_3_SC;TBJY_3_SC;TBNW_3_SC;TBQ_3_SC;TBSW_3_SC;TBJH_3_SC]]
+    $setGlobalUserVar[sscp;$randomText[BPJS_3_SC;BPJN_3_SC;BPRS_3_SC;BPLS_3_SC;TWNY_3_SC;TWJY_3_SC;TWMM_3_SC;TWSN_3_SC;TWJH_3_SC;TWMN_3_SC;TWDH_3_SC;TWCY_3_SC;TWTY_3_SC;SOTY_3_SC;TBER_3_SC;TBJC_3_SC;TBSY_3_SC;TBHJ_3_SC;TBYH_3_SC;TBKV_3_SC;TBJY_3_SC;TBNW_3_SC;TBQ_3_SC;TBSW_3_SC;TBJH_3_SC]]
     
   $addTimestamp[1]
   
