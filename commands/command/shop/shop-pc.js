@@ -5,7 +5,7 @@ module.exports = [{
   $description[1;> Check the [rates page](https://www.youtube.com/watch?v=dQw4w9WgXcQ) for more information!]
 
     $addField[1;<:JJU_stagepack1:962385364713103450> Single Stage Card;
-    <:JJU_diamond:962386919969390684> *\`x5,000\`*
+    <:JJU_diamond:962386919969390684> *\`x500\`*
 <:JJU_search:962385676496691210> *\`sscp\`*;yes]
 
     $addField[1;Example — How to purchase items;\`\`\`!purchase (item tag)\`\`\`]
