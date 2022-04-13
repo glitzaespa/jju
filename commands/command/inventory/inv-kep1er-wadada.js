@@ -6,7 +6,7 @@ module.exports = {
 
 $author[1;Inventory — Kep1er;https://cdn.discordapp.com/attachments/953097417295790121/957395333686624286/JJU_inventory.png]
 
-$title[1;\`$getGlobalUserVar[SOSM_2_OS_RARITY]\` $getGlobalUserVar[SOSM_2_OS_THEME]]
+$title[1;\`$getGlobalUserVar[KPXT_1_WD_RARITY]\` $getGlobalUserVar[KPXT_1_WD_THEME]]
 
 $description[1;To avoid flooding issues, cards you don't own won't appear in your inventory.]
 
