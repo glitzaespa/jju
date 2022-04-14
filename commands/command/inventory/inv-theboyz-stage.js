@@ -1,5 +1,6 @@
 module.exports = {
   name: "inv theboyz - stage card",
+    aliases:["inv tb - sc","tbz - sc","theboyz - sc"],
   $if: "v4",
   code:`
 
