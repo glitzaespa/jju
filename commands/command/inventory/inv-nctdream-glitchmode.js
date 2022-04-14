@@ -1,6 +1,6 @@
 module.exports = {
   name: "inv nctdream - glitch mode",
-    aliases:["inv nct - gm","nct - gl","nctdream - gm"],
+    aliases:["inv nct - gm","inv nct - gl","inv nctdream - gm"],
   $if: "v4",
   code:`
 
