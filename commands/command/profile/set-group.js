@@ -11,9 +11,9 @@ $thumbnail[1;$authorAvatar]
 $footer[1;$userTag;https://cdn.discordapp.com/attachments/953097417295790121/957032974073860096/JJU_clock.png]
 $addTimestamp[1]
 
-    $onlyIf[$checkContains[$message[1];default;nmixx;enhypen;blackpink;redvelvet;txt]==true;{newEmbed:{field:List of available groups:\`\`\`default, nmixx, enhypen, blackpink, redvelvet, txt\`\`\`} {description:You haven't entered a valid artist to the command. Here's a list of the available groups in the bot.} {footer:$userTag:$authorAvatar} {timestamp} {color:2b7ced}}]
+    $onlyIf[$checkContains[$message[1];default;nmixx;enhypen;blackpink;redvelvet;txt;ateez;aespa;ive;kep1er;kwoneunbi;parkjihoon;soyou;sunmi;taeyeon;theboyz;twice;viviz]==true;{newEmbed:{field:List of available groups:\`\`\`default, nmixx, enhypen, blackpink, redvelvet, txt, ateez, aespa, ive, kep1er, kwoneunbi, parkjihoon, soyou, sunmi, taeyeon, theboyz, twice, viviz\`\`\`} {description:You haven't entered a valid artist to the command. Here's a list of the available groups in the bot.} {footer:$userTag:$authorAvatar} {timestamp} {color:2b7ced}}]
 
-      $argsCheck[1;{newEmbed:{field:List of available groups:\`\`\`default, nmixx, enhypen, blackpink, redvelvet, txt\`\`\`}}]
+      $argsCheck[1;{newEmbed:{field:List of available groups:\`\`\`default, nmixx, enhypen, blackpink, redvelvet, txt, ateez, aespa, ive, kep1er, kwoneunbi, parkjihoon, soyou, sunmi, taeyeon, theboyz, twice, viviz\`\`\`}}]
 
-  $suppressErrors[{newEmbed:{field:List of available groups:\`\`\`default, nmixx, enhypen, blackpink, redvelvet, txt\`\`\`} {description:You haven't entered a valid artist to the command. Here's a list of the available groups in the bot.} {footer:$userTag:$authorAvatar} {timestamp} {color:2b7ced}}]`
+  $suppressErrors[{newEmbed:{field:List of available groups:\`\`\`default, nmixx, enhypen, blackpink, redvelvet, txt, ateez, aespa, ive, kep1er, kwoneunbi, parkjihoon, soyou, sunmi, taeyeon, theboyz, twice, viviz\`\`\`} {description:You haven't entered a valid artist to the command. Here's a list of the available groups in the bot.} {footer:$userTag:$authorAvatar} {timestamp} {color:2b7ced}}]`
   })
