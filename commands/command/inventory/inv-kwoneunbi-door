@@ -1,6 +1,6 @@
 module.exports = {
   name: "inv kwoneunbi - door",
-  aliases:["inv eb - do","eb - dr","kwoneunbi - dr"],
+  aliases:["inv eb - do","inv eb - dr","inv kwoneunbi - dr"],
   $if: "v4",
   code:`
 $author[1;Inventory — KWON EUN BI;https://cdn.discordapp.com/attachments/953097417295790121/957395333686624286/JJU_inventory.png]
