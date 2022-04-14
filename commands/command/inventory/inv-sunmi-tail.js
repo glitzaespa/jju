@@ -1,5 +1,6 @@
 module.exports = {
   name: "inv sunmi - tail",
+    aliases:["inv sm - ta","sm - ti","sunmi - ta"],
   $if: "v4",
   code:`
 
