@@ -1,6 +1,6 @@
 module.exports = {
   name: "inv viviz - beam of prism",
-    aliases:["inv vv - be","vi - be","viviz - be"],
+    aliases:["inv vv - be","inv vi - be","inv viviz - be"],
   $if: "v4",
   code:`
 
