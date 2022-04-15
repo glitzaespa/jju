@@ -45,7 +45,7 @@ VVBO_IMAGE: `https://cdn.discordapp.com/attachments/962593770480734288/962594160
 VVBO_ANSWER: `beamofprism`,
 VVBO_HINT: `2 star card, girl group theme.`,
 IVLD_IMAGE: `https://cdn.discordapp.com/attachments/962530793501098005/962616312046182405/Untitled291_20220410153309.png`,
-IVLD_ANSWER: `beamofprism`,
+IVLD_ANSWER: `lovedive`,
 IVLD_HINT: `2 star card, girl group theme.`,
 //OPTIONS
 QUEST_CODE: `No border chosen.`,
