@@ -12,7 +12,7 @@ code:
 `
 $interactionReply[ok hi]
 
-$onlyif[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];{    
+$onlyif[$advancedTextSplit[$interactionData[TEST];_;2]==$interactionData[author.id];{    
    "content" : " ",
     "embeds" : "{newEmbed:{title:Error}{description:❌ You Are not the Author Of this Button}{color:RED}}",
     "ephemeral" : false,
@@ -20,6 +20,6 @@ $onlyif[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[aut
         "interaction" : true
 }
 
-$onlyIf[$advancedTextSplit[$interactionData[customId];_;1]==TEST;nou]
+$onlyIf[$advancedTextSplit[$interactionData[TEST];_;1]==TEST;nou]
 `
 }]  
