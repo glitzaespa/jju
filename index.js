@@ -101,6 +101,9 @@ TW_BDR_STATUS: "Not owned.",
 TW_WI: "\`★★★\` **TWICE** What Is Love?",
 TW_WI_IMAGE: "https://cdn.discordapp.com/attachments/953060221205479434/964258263103336448/TW_WIL.png",
 TW_WI_STATUS: "Not owned.",
+TX_BH: "\`★★★\` **TOMORROW X TOGETHER** Blue Hour",
+TX_BH_IMAGE: "https://cdn.discordapp.com/attachments/953060221205479434/964599335667003402/TX_BH.png",
+TX_BH_STATUS: "Not owned.",
 //PROFILE
 taeyeon: "<:taeyeon:953054626721198150> TAEYEON",
 //DROP COLOR
