@@ -5,11 +5,15 @@ module.exports = {
     $footer[1;$userTag;https://cdn.discordapp.com/attachments/946791137165836361/962390336460701726/JJU_clock.png]
 
 $setGlobalUserVar[$getGlobalUserVar[twwicp];$sum[$getGlobalUserVar[$getGlobalUserVar[twwicp]];1]]
+$setGlobalUserVar[$getGlobalUserVar[twwicp2];$sum[$getGlobalUserVar[$getGlobalUserVar[twwicp2]];1]]
+$setGlobalUserVar[$getGlobalUserVar[twwicp3];$sum[$getGlobalUserVar[$getGlobalUserVar[twwicp3]];1]]
 $setGlobalUserVar[DIAMOND;$sub[$getGlobalUserVar[DIAMOND];500]]
 $setGlobalUserVar[TW_WI_STATUS;Owned.]
 $setGlobalUserVar[twwicp_PURCHASE;1]
 
 $setVar[$getGlobalUserVar[twwicp]_OWNER;$sum[$getVar[$getGlobalUserVar[twwicp]_OWNER];1]]
+$setVar[$getGlobalUserVar[twwicp2]_OWNER;$sum[$getVar[$getGlobalUserVar[twwicp2]_OWNER];1]]
+$setVar[$getGlobalUserVar[twwicp3]_OWNER;$sum[$getVar[$getGlobalUserVar[twwicp3]_OWNER];1]]
 
 $addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[twwicp2]_NAME] has been added to your inventory.
 \`x1\` $getGlobalUserVar[$getGlobalUserVar[twwicp3]_NAME] has been added to your inventory.
