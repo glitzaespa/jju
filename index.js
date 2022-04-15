@@ -37,7 +37,16 @@ ENDA_ANSWER: `dimensionanswer`,
 ENDA_HINT: `2 star card, boy group theme.`,
 //OPTIONS
 QUEST_CODE: `No border chosen.`,
+//PURCHASE LIMIT
+twwicp_PURCHASE: "0",
+twbdrcp_PURCHASE: "0",
 //DROP
+twwicp: "No drop.",
+twwicp2: "No drop.",
+twwicp3: "No drop.",
+twbdrcp: "No drop.",
+twbdrcp2: "No drop.",
+twbdrcp3: "No drop.",
 SUMMON: "No drop.",
 FORCEDROP: "No drop.",
 DROP: "No drop.",
