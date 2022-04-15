@@ -24,8 +24,8 @@ $addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[aebmcp2]
     $addField[1;Balance Change;<:JJU_diamond:962386919969390684> \`x250\` have been removed from your balance.]
     
     $setGlobalUserVar[aebmcp;$randomText[AEKR_2_BM;AENN_2_BM;AEGS_2_BM;AEWT_2_BM;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR]]
-$setGlobalUserVar[aebmcp2;$randomText[AEKR_2_BM;AENN_2_BM;AEGS_2_BM;AEWT_2_BM;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR]]
-$setGlobalUserVar[aebmcp3;$randomText[AEKR_2_BM;AENN_2_BM;AEGS_2_BM;AEWT_2_BM;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR]]
+$setGlobalUserVar[aebmcp2;$randomText[AEKR_2_BM;AENN_2_BM;AEGS_2_BM;AEWT_2_BM;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR;AEKR_1_FR;AEGS_1_FR;AENN_1_FR;AEWT_1_FR]]
+$setGlobalUserVar[aebmcp3;$randomText[AENN_2_BM;AEKR_2_BM;AEGS_2_BM;AEWT_2_BM;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR;AEKR_1_FR;AENN_1_FR;AEGS_1_FR;AEWT_1_FR]]
     
   $addTimestamp[1]
   
