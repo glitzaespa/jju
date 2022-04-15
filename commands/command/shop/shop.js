@@ -4,7 +4,7 @@ module.exports = [({
 
   $description[1;Use the command along with a shop tag to continue with your purchase!]
 
-  $addField[1;New;\`nw\` Brand new items in the shop!;yes]  
+  $addField[1;Limited;\`lm\` Items that are limited-time only!;yes]  
   $addField[1;Packs;\`pc\` Buy cards in bulk for a special price!;yes]  
 
     $addField[1;Example;\`\`\`!shop [code]\`\`\`]
