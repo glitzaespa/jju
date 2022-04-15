@@ -11,10 +11,9 @@ $setGlobalUserVar[twwicp_PURCHASE;1]
 
 $setVar[$getGlobalUserVar[twwicp]_OWNER;$sum[$getVar[$getGlobalUserVar[twwicp]_OWNER];1]]
 
-$addField[1;Inventory Change;\`x1\` $getGlobalUserVar[twwicp] has been added to your inventory.
-\`x1\` $getGlobalUserVar[$getGlobalUserVar[twwicp2]_NAME] has been added to your inventory.
+$addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[twwicp2]_NAME] has been added to your inventory.
 \`x1\` $getGlobalUserVar[$getGlobalUserVar[twwicp3]_NAME] has been added to your inventory.
-\`x1\` $getGlobalUserVar[$getGlobalUserVar[TW_WI] has been added to your inventory.]
+\`x1\` Banner $getGlobalUserVar[TW_WI] has been added to your inventory.]
     $addField[1;Balance Change;<:JJU_diamond:962386919969390684> \`x500\` have been removed from your balance.]
     
     $setGlobalUserVar[twwicp;$randomText[TWNY_2_WI;TWJY_2_WI;TWMM_2_WI;TWSN_2_WI;TWJH_2_WI;TWMN_2_WI;TWDH_2_WI;TWCY_2_WI;TWTY_2_WI;TWNY_1_BDR;TWJY_1_BDR;TWMM_1_BDR;TWSN_1_BDR;TWJH_1_BDR;TWMN_1_BDR;TWDH_1_BDR;TWCY_1_BDR;TWTY_1_BDR;TWNY_1_BDR;TWJY_1_BDR;TWMM_1_BDR;TWSN_1_BDR;TWJH_1_BDR;TWMN_1_BDR;TWDH_1_BDR;TWCY_1_BDR;TWTY_1_BDR]]
