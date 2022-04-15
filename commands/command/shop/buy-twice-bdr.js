@@ -11,7 +11,7 @@ $setGlobalUserVar[twbdrcp_PURCHASE;1]
 
 $setVar[$getGlobalUserVar[twbdrcp]_OWNER;$sum[$getVar[$getGlobalUserVar[twbdrcp]_OWNER];1]]
 
-$addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp]_NAME] has been added to your inventory.
+$addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp]_NAME]] has been added to your inventory.
 \`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp2]_NAME] has been added to your inventory.
 \`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp3]_NAME] has been added to your inventory.
 \`x1\` $getGlobalUserVar[$getGlobalUserVar[TW_BDR] has been added to your inventory.]
