@@ -1,39 +1,25 @@
 module.exports = [{
-name: "bigtest123",
-code: `
+name: "name",
+code: 
+`
 ok
-$addButton[1;Label1;primary;example1_$authorID]
-$addButton[1;Label3;primary;example_$authorID]
+$addButton[index;label;style;TEST_$authorID;false]
 `
 }, {
- type: "interaction",
- prototype: "button",
- code: `
+type: "interaction",
+protoType: "button",
+code: 
+`
+$interactionReply[ok hi]
 
-$interactionReply[example1]
+$onlyif[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];{    
+   "content" : " ",
+    "embeds" : "{newEmbed:{title:Error}{description:❌ You Are not the Author Of this Button}{color:RED}}",
+    "ephemeral" : false,
+    "options" : {
+        "interaction" : true
+}
 
-$onlyif[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];{
- "embeds" : "{newEmbed:{description:You cannot use this button!}{color:BLUE}}",
- "ephemeral" : true,
- "options" : {
- "interaction" : true
- }
-}]
-$onlyIf[$advancedTextSplit[$interactionData[customId];_;1]==example;]
- `
-}, {
- type: "interaction",
- prototype: "button",
- code: `
-
-$interactionReply[example3]
-
-$onlyif[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];{
- "embeds" : "{newEmbed:{description:You cannot use this button!}{color:BLUE}}",
- "ephemeral" : true,
- "options" : {
- "interaction" : true
- }
-}]
-$onlyIf[$advancedTextSplit[$interactionData[customId];_;1]==example1;]`
-}]
+$onlyIf[$advancedTextSplit[$interactionData[customId];_;1]==TEST;nou]
+`
+}]  
