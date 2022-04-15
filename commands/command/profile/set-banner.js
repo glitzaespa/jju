@@ -2,7 +2,7 @@ module.exports = ({
   name: "set banner",
   code:  `$author[1;Profile — Set Banner;https://cdn.discordapp.com/attachments/946801797635375234/964314115516551269/JJU_search.png]
 
-      $description[1;$getGlobalUserVar[$message[1]_BANNER] has been set as your profile banner.]
+      $description[1;$getGlobalUserVar[$message[1]] has been set as your profile banner.]
 
       $setGlobalUserVar[BANNER;$message[1]]
   
