@@ -3,13 +3,19 @@ module.exports = {
   code: `$author[1;Purchase;https://cdn.discordapp.com/attachments/946791137165836361/962364008051146803/JJU_shop2.png]
 
     $footer[1;$userTag;https://cdn.discordapp.com/attachments/946791137165836361/962390336460701726/JJU_clock.png]
-
+    
+    $setGlobalUserVar[$getGlobalUserVar[twbdrcp2];$sum[$getGlobalUserVar[$getGlobalUserVar[twbdrcp2]];1]]
+$setGlobalUserVar[$getGlobalUserVar[twbdrcp3];$sum[$getGlobalUserVar[$getGlobalUserVar[twbdrcp3]];1]]
 $setGlobalUserVar[$getGlobalUserVar[twbdrcp];$sum[$getGlobalUserVar[$getGlobalUserVar[twbdrcp]];1]]
 $setGlobalUserVar[DIAMOND;$sub[$getGlobalUserVar[DIAMOND];500]]
 $setGlobalUserVar[TW_BDR_STATUS;Owned.]
 $setGlobalUserVar[twbdrcp_PURCHASE;1]
 
 $setVar[$getGlobalUserVar[twbdrcp]_OWNER;$sum[$getVar[$getGlobalUserVar[twbdrcp]_OWNER];1]]
+
+$setVar[$getGlobalUserVar[twbdrcp2]_OWNER;$sum[$getVar[$getGlobalUserVar[twbdrcp2]_OWNER];1]]
+
+$setVar[$getGlobalUserVar[twbdrcp3]_OWNER;$sum[$getVar[$getGlobalUserVar[twbdrcp3]_OWNER];1]]
 
 $addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp2]_NAME] has been added to your inventory.
 \`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp3]_NAME] has been added to your inventory.
