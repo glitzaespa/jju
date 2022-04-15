@@ -52,7 +52,11 @@ QUEST_CODE: `No border chosen.`,
 //PURCHASE LIMIT
 twwicp_PURCHASE: "0",
 twbdrcp_PURCHASE: "0",
+aebmcp_PURCHASE: "0",
 //DROP
+aebmcp: "No drop.",
+aebmcp2: "No drop.",
+aebmcp3: "No drop.",
 twwicp: "No drop.",
 twwicp2: "No drop.",
 twwicp3: "No drop.",
@@ -116,6 +120,9 @@ TW_WI_STATUS: "Not owned.",
 TX_BH: "\`★★★\` **TOMORROW X TOGETHER** Blue Hour",
 TX_BH_IMAGE: "https://cdn.discordapp.com/attachments/953060221205479434/964599335667003402/TX_BH.png",
 TX_BH_STATUS: "Not owned.",
+AE_BM: "\`★★★\` **æspa** Black Mamba",
+AE_BM_IMAGE: "https://cdn.discordapp.com/attachments/953060221205479434/964363238282235964/AE_BM.png",
+AE_BM_STATUS: "Not owned.",
 //PROFILE
 taeyeon: "<:taeyeon:953054626721198150> TAEYEON",
 //DROP COLOR
