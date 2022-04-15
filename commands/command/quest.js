@@ -13,7 +13,7 @@ $image[1;$getGlobalUserVar[$getGlobalUserVar[QUEST_CODE]_IMAGE]]
 
 $wait[1s]
 
-$setGlobalUserVar[QUEST_CODE;$randomText[ENDA;TXCY;BPHY;RVR2;SOCYSM3;SOCYSM2;SOCYSM1]]
+$setGlobalUserVar[QUEST_CODE;$randomText[ENDA;TXCY;BPHY;RVR2;SOCYSM3;SOCYSM2;SOCYSM1;AEBM;SMOS;VVBO;IVLD]]
 
 $color[1;06ff00]
 
