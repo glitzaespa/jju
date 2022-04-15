@@ -3,7 +3,7 @@ name: "name",
 code: 
 `
 ok
-$addButton[index;label;style;TEST_$authorID;false]
+$addButton[1;aaa;blue;TEST_$authorID;false]
 `
 }, {
 type: "interaction",
