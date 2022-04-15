@@ -1,12 +1,12 @@
 module.exports = [({
   name: "gift",
-  code: `$author[1;Gift;https://cdn.discordapp.com/attachments/933832885117538314/933853896693145600/helpion.png]
+  code: `$author[1;Gift;https://cdn.discordapp.com/attachments/946801797635375234/964314115516551269/JJU_search.png]
 
 $description[1;<@$authorID> gifted <@$mentioned[1]> $getGlobalUserVar[$message[2]_NAME].]
-    $footer[1;$userTag;https://cdn.discordapp.com/attachments/929023244126789682/929091046544125952/clockicon.png]
+    $footer[1;$userTag;https://cdn.discordapp.com/attachments/946801797635375234/964314745115136110/JJU_clock.png]
  $addTimestamp[1]
   
- $color[1;#2b7ced]
+ $color[1;#3af4cb]
   
    $thumbnail[1;$authorAvatar]
 
