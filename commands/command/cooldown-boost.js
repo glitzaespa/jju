@@ -15,5 +15,5 @@ $addTimestamp[1]
 
 $reply[$messageID;yes]
 
-$onlyIf[$hasRoles[946957937547554907;$authorID;962723653420716083]==true;<@$authorID>, this command is only for support server boosters!]`
+$onlyIf[$hasRoles[946957937547554907;$authorID;964032687851601963]==true;<@$authorID>, this command is only for support server boosters!]`
 }
