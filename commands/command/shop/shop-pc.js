@@ -8,6 +8,10 @@ module.exports = [{
     <:JJU_diamond:962386919969390684> *\`x500\`*
 <:JJU_search:962385676496691210> *\`sscp\`*;yes]
 
+    $addField[1;<:JJU_cardpack5:964935956786446356> Random 5-Card Pack;
+    <:JJU_diamond:962386919969390684> *\`x100\`*
+<:JJU_search:962385676496691210> *\`r5cp\`*;yes]
+
     $addField[1;Example — How to purchase items;\`\`\`!purchase (item tag)\`\`\`]
     $footer[1;$userTag;https://cdn.discordapp.com/attachments/946791137165836361/962362551797162084/JJU_clock.png]
   $addTimestamp[1]
