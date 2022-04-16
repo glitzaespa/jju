@@ -10,22 +10,14 @@ $title[1;\`$getGlobalUserVar[BPJS_2_HY_RARITY]\` $getGlobalUserVar[BPJS_2_HY_THE
 
 $description[1;To avoid flooding issues, cards you don't own won't appear in your inventory.]
 
-$if[$getGlobalUserVar[BPLS_2_HY]>=1]
 $addField[1;<:JJU_blackpink:957397108489597008> $getGlobalUserVar[BPLS_2_HY_IDOL];Copies: \`$getGlobalUserVar[BPLS_2_HY]\`
 Code: \`BPLS_2_HY\`;yes]
-$endif
-$if[$getGlobalUserVar[BPRS_2_HY]>=1]
 $addField[1;<:JJU_blackpink:957397108489597008> $getGlobalUserVar[BPRS_2_HY_IDOL];Copies: \`$getGlobalUserVar[BPRS_2_HY]\`
 Code: \`BPRS_2_HY\`;yes]
-$endif
-$if[$getGlobalUserVar[BPJN_2_HY]>=1]
 $addField[1;<:JJU_blackpink:957397108489597008> $getGlobalUserVar[BPJN_2_HY_IDOL];Copies: \`$getGlobalUserVar[BPJN_2_HY]\`
 Code: \`BPJN_2_HY\`;yes]
-$endif
-$if[$getGlobalUserVar[BPJS_2_HY]>=1]
 $addField[1;<:JJU_blackpink:957397108489597008> $getGlobalUserVar[BPJS_2_HY_IDOL];Copies: \`$getGlobalUserVar[BPJS_2_HY]\`
 Code: \`BPJS_2_HY\`;yes]
-$endif
 
 $color[1;3af4cb]
 $thumbnail[1;$userAvatar[$mentioned[1]]]
