@@ -5,12 +5,9 @@ module.exports = {
   code:`
 $author[1;Inventory — KWON EUN BI;https://cdn.discordapp.com/attachments/953097417295790121/957395333686624286/JJU_inventory.png]
 $title[1;\`$getGlobalUserVar[SOEB_1_DR_RARITY]\` $getGlobalUserVar[SOEB_1_DR_THEME]]
-$description[1;To avoid flooding issues, cards you don't own won't appear in your inventory.]
 
-$if[$getGlobalUserVar[SOEB_1_DR]>=1]
 $addField[1;<:JJU_kwoneunbi:963553631049748630> $getGlobalUserVar[SOEB_1_DR_IDOL];Copies: \`$getGlobalUserVar[SOEB_1_DR]\`
 Code: \`SOEB_1_DR\`;yes]
-$endif
 
 $color[1;3af4cb]
 $thumbnail[1;$userAvatar[$mentioned[1]]]
