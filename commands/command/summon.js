@@ -11,7 +11,7 @@ $addField[1;Rarity;\`\`\`$getGlobalUserVar[$message_RARITY]\`\`\`;yes]
 $addField[1;Theme;\`\`\`$getGlobalUserVar[$message_THEME]\`\`\`;yes]
 $addField[1;Idol;\`\`\`$getGlobalUserVar[$message_IDOL]\`\`\`;yes]
 $image[1;$getGlobalUserVar[$message_IMAGE]]
-$footer[1;Try again in 10 minutes!]
+$footer[1;Try again in 1 hour!]
 $thumbnail[1;$authorAvatar]
 
 $description[1;You have succesfully summoned your chosen card.]
@@ -33,7 +33,7 @@ $addField[1;Theme;\`\`\`$getGlobalUserVar[$getGlobalUserVar[SUMMON]_THEME]\`\`\`
 $addField[1;Idol;\`\`\`$getGlobalUserVar[$getGlobalUserVar[SUMMON]_IDOL]\`\`\`;yes]
 $image[1;attachment://SUMMON.png]
 $attachment[$getGlobalUserVar[$getGlobalUserVar[SUMMON]_IMAGE];SUMMON.png]
-$footer[1;Try again in 10 minutes!]
+$footer[1;Try again in 1 hour!]
 $thumbnail[1;$authorAvatar]
 $description[1;You have failed summoning your chosen card.]
 
