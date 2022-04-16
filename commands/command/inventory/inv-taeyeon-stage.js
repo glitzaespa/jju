@@ -8,12 +8,8 @@ $author[1;Inventory — TAEYEON;https://cdn.discordapp.com/attachments/953097417
 
 $title[1;\`$getGlobalUserVar[SOTY_3_SC_RARITY]\` $getGlobalUserVar[SOTY_3_SC_THEME]]
 
-$description[1;To avoid flooding issues, cards you don't own won't appear in your inventory.]
-
-$if[$getGlobalUserVar[SOTY_3_SC]>=1]
 $addField[1;<:JJU_taeyeon:963562584555008031> $getGlobalUserVar[SOTY_3_SC_IDOL];Copies: \`$getGlobalUserVar[SOTY_3_SC]\`
 Code: \`SOTY_3_SC\`;yes]
-$endif
 
 $color[1;3af4cb]
 $thumbnail[1;$userAvatar[$mentioned[1]]]
