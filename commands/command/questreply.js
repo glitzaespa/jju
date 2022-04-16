@@ -5,8 +5,8 @@ module.exports ={
   code:`
 
 $if[$message==$getGlobalUserVar[$getGlobalUserVar[QUEST_CODE]_ANSWER]]
-$setGlobalUserVar[DIAMOND;$sum[$getGlobalUserVar[DIAMOND];10]]
-$addField[1;Rewards;<:JJU_diamond:962386919969390684> x10]
+$setGlobalUserVar[DIAMOND;$sum[$getGlobalUserVar[CHESTNUT];500]]
+$addField[1;Rewards;<:JJU_diamond:962386919969390684> x500]
 $author[1;Quest — Result;https://cdn.discordapp.com/attachments/949848002628038727/956639744912130138/JUYEON_SHADOW.png]
 $description[1;Quest has been successful!]
 $title[1;Congratulations!]
