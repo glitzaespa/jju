@@ -19,6 +19,7 @@ $setVar[$getGlobalUserVar[twbdrcp3]_OWNER;$sum[$getVar[$getGlobalUserVar[twbdrcp
 
 $addField[1;Inventory Change;\`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp2]_NAME] has been added to your inventory.
 \`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp3]_NAME] has been added to your inventory.
+\`x1\` $getGlobalUserVar[$getGlobalUserVar[twbdrcp]_NAME] has been added to your inventory.
 \`x1\` $getGlobalUserVar[TW_BDR] has been added to your inventory.]
     $addField[1;Balance Change;<:JJU_diamond:962386919969390684> \`x500\` have been removed from your balance.]
     
