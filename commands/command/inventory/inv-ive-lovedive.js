@@ -8,32 +8,18 @@ $author[1;Inventory — IVE;https://cdn.discordapp.com/attachments/9530974172957
 
 $title[1;\`$getGlobalUserVar[IVWY_2_LD_RARITY]\` $getGlobalUserVar[IVWY_2_LD_THEME]]
 
-$description[1;To avoid flooding issues, cards you don't own won't appear in your inventory.]
-
-$if[$getGlobalUserVar[IVWY_2_LD]>=1]
 $addField[1;<:JJU_ive:963551042207887410> $getGlobalUserVar[IVWY_2_LD_IDOL];Copies: \`$getGlobalUserVar[IVWY_2_LD]\`
 Code: \`IVWY_2_LD\`;yes]
-$endif
-$if[$getGlobalUserVar[IVLZ_2_LD]>=1]
 $addField[1;<:JJU_ive:963551042207887410> $getGlobalUserVar[IVLZ_2_LD_IDOL];Copies: \`$getGlobalUserVar[IVLZ_2_LD]\`
 Code: \`IVLZ_2_LD\`;yes]
-$endif
-$if[$getGlobalUserVar[IVGE_2_LD]>=1]
 $addField[1;<:JJU_ive:963551042207887410> $getGlobalUserVar[IVGE_2_LD_IDOL];Copies: \`$getGlobalUserVar[IVGE_2_LD]\`
 Code: \`IVGE_2_LD\`;yes]
-$endif
-$if[$getGlobalUserVar[IVLS_2_LD]>=1]
 $addField[1;<:JJU_ive:963551042207887410> $getGlobalUserVar[IVLS_2_LD_IDOL];Copies: \`$getGlobalUserVar[IVLS_2_LD]\`
 Code: \`IVLS_2_LD\`;yes]
-$endif
-$if[$getGlobalUserVar[IVYJ_2_LD]>=1]
 $addField[1;<:JJU_ive:963551042207887410> $getGlobalUserVar[IVYJ_2_LD_IDOL];Copies: \`$getGlobalUserVar[IVYJ_2_LD]\`
 Code: \`IVYJ_2_LD\`;yes]
-$endif
-$if[$getGlobalUserVar[IVRE_2_LD]>=1]
 $addField[1;<:JJU_ive:963551042207887410> $getGlobalUserVar[IVRE_2_LD_IDOL];Copies: \`$getGlobalUserVar[IVRE_2_LD]\`
 Code: \`IVRE_2_LD\`;yes]
-$endif
 
 $color[1;3af4cb]
 $thumbnail[1;$userAvatar[$mentioned[1]]]
