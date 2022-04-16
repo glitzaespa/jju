@@ -8,12 +8,8 @@ $author[1;Inventory — SUNMI;https://cdn.discordapp.com/attachments/95309741729
 
 $title[1;\`$getGlobalUserVar[SOSM_2_OS_RARITY]\` $getGlobalUserVar[SOSM_2_OS_THEME]]
 
-$description[1;To avoid flooding issues, cards you don't own won't appear in your inventory.]
-
-$if[$getGlobalUserVar[SOSM_2_OS]>=1]
 $addField[1;<:JJU_sunmi:963559554413641790> $getGlobalUserVar[SOSM_2_OS_IDOL];Copies: \`$getGlobalUserVar[SOSM_2_OS]\`
 Code: \`SOSM_2_OS\`;yes]
-$endif
 
 $color[1;3af4cb]
 $thumbnail[1;$userAvatar[$mentioned[1]]]
