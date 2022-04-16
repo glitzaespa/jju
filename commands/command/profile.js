@@ -1,8 +1,8 @@
 module.exports ={
   name: "profile",
   aliases:["p","pr","user"],
-  code:`$addField[1;Ult Artist;> $getGlobalUserVar[$getGlobalUserVar[FAV_GROUP]];yes]
-$addField[1;Banner;> $getGlobalUserVar[$getGlobalUserVar[BANNER;$mentioned[1]];$mentioned[1]]
+  code:`$addField[1;Ult Artist;> $getGlobalUserVar[$getGlobalUserVar[FAV_GROUP;$mentioned[1]];$mentioned[1]];yes]
+$addField[1;Banner;> $getGlobalUserVar[$getGlobalUserVar[BANNER;$mentioned[1]];$mentioned[1];yes]
 ];yes]
 $image[1;$getGlobalUserVar[$getGlobalUserVar[BANNER;$mentioned[1]]_IMAGE;$mentioned[1]]]
 $wait[1s]
