@@ -10,6 +10,10 @@ $title[1;\`$getGlobalUserVar[KPXT_1_WD_RARITY]\` $getGlobalUserVar[KPXT_1_WD_THE
 
 $description[1;To avoid flooding issues, cards you don't own won't appear in your inventory.]
 
+$if[$getGlobalUserVar[KPYJ_1_WD]>=1]
+$addField[1;<:JJU_kep1er:963568499215708190> $getGlobalUserVar[KPYJ_1_WD_IDOL];Copies: \`$getGlobalUserVar[KPYJ_1_WD]\`
+Code: \`KPYJ_1_WD\`;yes]
+$endif
 $if[$getGlobalUserVar[KPXT_1_WD]>=1]
 $addField[1;<:JJU_kep1er:963568499215708190> $getGlobalUserVar[KPXT_1_WD_IDOL];Copies: \`$getGlobalUserVar[KPXT_1_WD]\`
 Code: \`KPXT_1_WD\`;yes]
