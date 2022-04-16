@@ -3,7 +3,7 @@ module.exports ={
   aliases:["fd","fdrop","fdr"],
   code:`
 $author[1;Force Drop;$getGlobalUserVar[$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_COLOR]]]
-$addField[1;Balance Change;\`🌰\` \`➖\` x100]
+$addField[1;Balance Change;\`🌰\` \`➖\` x2,000]
 $addField[1;Code;\`\`\`$getGlobalUserVar[FORCEDROP]\`\`\`;yes]
 $addField[1;Global Copies;\`\`\`$getVar[$getGlobalUserVar[FORCEDROP]_OWNER]\`\`\`;yes]
 $addField[1;Rarity;\`\`\`$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_RARITY]\`\`\`;yes]
@@ -17,7 +17,7 @@ $color[1;$getGlobalUserVar[$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]_COLOR]
 $wait[1s]
 $setGlobalUserVar[$getGlobalUserVar[FORCEDROP];$sum[$getGlobalUserVar[$getGlobalUserVar[FORCEDROP]];1]]
 $setVar[$getGlobalUserVar[FORCEDROP]_OWNER;$sum[$getVar[$getGlobalUserVar[FORCEDROP]_OWNER];1]]
-$setGlobalUserVar[CHESTNUT;$sub[$getGlobalUserVar[CHESTNUT];100]]
+$setGlobalUserVar[CHESTNUT;$sub[$getGlobalUserVar[CHESTNUT];2000]]
 $globalCooldown[1m;<@$authorID>, you're on cooldown! Please try again in \`%time%\`.]
 $reply[$messageID;yes]
 $onlyIf[$getGlobalUserVar[CHESTNUT]>=100;<@$authorID>, you don't have enough chestnuts to force a drop!]
