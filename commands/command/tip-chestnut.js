@@ -1,9 +1,9 @@
 module.exports = {
-  name: "tip",
+  name: "tip chestnut",
   $if: "v4",
   code:`$author[1;Tip;https://cdn.discordapp.com/attachments/953097417295790121/957287993868185630/JJU_tip.png]
 
-$description[1;You've tipped <@$mentioned[1]> \`🌰\` x$message[2].]
+$description[1;You've tipped <@$mentioned[1]> <:JJU_chestnut:962386674174803968> x$message[2].]
 
 $setGlobalUserVar[CHESTNUT;$sub[$getGlobalUserVar[CHESTNUT];$message[2]]]
 $setGlobalUserVar[CHESTNUT;$sum[$getGlobalUserVar[CHESTNUT;$mentioned[1]];$message[2]];$mentioned[1]]
