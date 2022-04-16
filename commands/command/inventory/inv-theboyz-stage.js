@@ -8,52 +8,28 @@ $author[1;Inventory — THE BOYZ;https://cdn.discordapp.com/attachments/95309741
 
 $title[1;\`$getGlobalUserVar[TBER_3_SC_RARITY]\` $getGlobalUserVar[TBER_3_SC_THEME]]
 
-$description[1;To avoid flooding issues, cards you don't own won't appear in your inventory.]
-
-$if[$getGlobalUserVar[TBER_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBER_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBER_3_SC]\`
 Code: \`TBER_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBJC_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBJC_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBJC_3_SC]\`
 Code: \`TBJC_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBSY_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBSY_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBSY_3_SC]\`
 Code: \`TBSY_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBHJ_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBHJ_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBHJ_3_SC]\`
 Code: \`TBHJ_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBYH_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBYH_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBYH_3_SC]\`
 Code: \`TBYH_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBKV_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBKV_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBKV_3_SC]\`
 Code: \`TBKV_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBJY_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBJY_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBJY_3_SC]\`
 Code: \`TBJY_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBNW_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBNW_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBNW_3_SC]\`
 Code: \`TBNW_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBQ_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBQ_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBQ_3_SC]\`
 Code: \`TBQ_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBSW_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBSW_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBSW_3_SC]\`
 Code: \`TBSW_3_SC\`;yes]
-$endif
-$if[$getGlobalUserVar[TBJH_3_SC]>=1]
 $addField[1;<:JJU_theboyz:963566724576342106> $getGlobalUserVar[TBJH_3_SC_IDOL];Copies: \`$getGlobalUserVar[TBJH_3_SC]\`
 Code: \`TBJH_3_SC\`;yes]
-$endif
 
 $color[1;3af4cb]
 $thumbnail[1;$userAvatar[$mentioned[1]]]
