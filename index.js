@@ -48,7 +48,7 @@ IVLD_IMAGE: `https://cdn.discordapp.com/attachments/962530793501098005/962616312
 IVLD_ANSWER: `lovedive`,
 IVLD_HINT: `2 star card, girl group theme.`,
 //OPTIONS
-QUEST_CODE: `No border chosen.`,
+QUEST_CODE: `No border.`,
 //PURCHASE LIMIT
 twwicp_PURCHASE: "0",
 twbdrcp_PURCHASE: "0",
